@@ -1,4 +1,4 @@
-# Bootstrap
+# Day 01
 
 ## Setup TypeScript
 
@@ -38,7 +38,7 @@
 
 ## Setup DevRunner
 
-- Add Chokidar package to watch changes and BrowserSync package to server it.
+- Add [chokidar] package to watch changes and [browser-sync] package to server it.
 
 ```sh
 	npm install -D chokidar browser-sync
@@ -56,3 +56,6 @@
 ## Add AppRoot Component
 
 - create the first component to the project: `<app-root></app-root>` on `index.ts` and import it on `index.html`
+
+[chokidar]: https://www.npmjs.com/package/chokidar
+[browser-sync]: https://browsersync.io/
