@@ -1,0 +1,13 @@
+{
+	"serve": {
+		"port": 8080
+	},
+	"statics": [
+		"index.html",
+		"favicon.ico",
+		{
+			"path": "assets",
+			"type": "folder"
+		}
+	]
+}

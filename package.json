@@ -1,20 +1,25 @@
 {
-  "name": "vanilla-web-ts",
-  "version": "0.0.1",
-  "description": "A bootstrap for web Development with vanilla TypeScript",
-  "main": "dist/index.js",
-  "type": "module",
-  "scripts": {
-    "build": "npm-run-all -s clean ts cp-statics",
-    "ts": "tsc",
-    "cp-statics": "node scripts/cp-statics.js",
-    "clean": "node scripts/clean.js",
-    "clean:all": "node scripts/clean-all.js"
-  },
-  "author": "juninhocruzg3",
-  "license": "ISC",
-  "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "typescript": "^4.6.2"
-  }
+	"name": "vanilla-web-ts",
+	"version": "0.0.1",
+	"description": "A bootstrap for web Development with vanilla TypeScript",
+	"main": "dist/index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "npm run build && npm-run-all -p watch",
+		"build": "npm-run-all -s clean ts cp-statics",
+		"ts": "tsc",
+		"cp-statics": "node scripts/cp-statics.js",
+		"clean": "node scripts/clean.js",
+		"clean:all": "node scripts/clean-all.js",
+		"watch": "node scripts/watch.js",
+		"serve": "browser-sync start --serve --files 'dist/*'"
+	},
+	"author": "juninhocruzg3",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.27.7",
+		"chokidar": "^3.5.3",
+		"npm-run-all": "^4.1.5",
+		"typescript": "^4.6.2"
+	}
 }
