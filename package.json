@@ -1,0 +1,11 @@
+{
+  "name": "mfe-authentication",
+  "version": "0.0.1",
+  "description": "A microfrontend",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juninhocruzg3",
+  "license": "ISC"
+}
