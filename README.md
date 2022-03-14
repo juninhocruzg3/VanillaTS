@@ -40,9 +40,12 @@ git clone git@github.com:juninhocruzg3/VanillaTS.git
 
 VanillaTS is cross-platform, fast, lightweight, scalable and is loved by millions.
 
+You might want to try [VanillaTS CLI].
+
 [cli]: https://nodejs.org
 [architecture]: https://vanilla-js.com
 [components]: https://vanilla-js.com
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/get-npm
 [yarn]: https://yarnpkg.com/
+[vanillats cli]: https://www.npmjs.com/package/@vanilla-ts/cli

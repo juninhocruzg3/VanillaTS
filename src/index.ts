@@ -5,7 +5,7 @@ class App extends HTMLElement {
 	constructor() {
 		super();
 		this.creationDate = new Date();
-		this.message = 'Welcome to VanillaTS';
+		this.message = 'Welcome to VanillaTS teste';
 	}
 
 	connectedCallback() {

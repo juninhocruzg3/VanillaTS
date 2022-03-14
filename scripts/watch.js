@@ -5,7 +5,8 @@ import browserSync from 'browser-sync';
 import { cp } from 'fs';
 
 // watch TS files
-watch('src/**/*.ts').on('change', () => {
+watch('src/**/*.ts').on('change', (event) => {
+	console.log('watcher: ', event);
 	exec('npm run ts');
 });
 
