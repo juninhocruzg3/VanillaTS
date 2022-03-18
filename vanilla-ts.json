@@ -1,7 +1,5 @@
 {
-	"serve": {
-		"port": 8080
-	},
+	"serve": {},
 	"statics": [
 		"index.html",
 		"favicon.ico",

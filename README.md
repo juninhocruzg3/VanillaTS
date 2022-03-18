@@ -22,6 +22,10 @@ Get started with VanillaTS, learn the fundamentals and explore advanced topics o
 
 - Install [Node.js] which includes a package manager (eg: [npm], [yarn])
 
+OR
+
+- Install [Docker] engine
+
 ### Setting Up a Project
 
 - clone this repository
@@ -34,9 +38,27 @@ git clone git@github.com:juninhocruzg3/VanillaTS.git
 - rename the title head tag on `index.html`
 - run on dev mode:
 
-```sh
-    npm run dev
-```
+  - Node:
+    ```sh
+        npm install
+        npm run dev
+    ```
+  - Node by `vanilla-ts`:
+    ```sh
+        npm install -g @vanilla-ts/cli
+        npm install
+        vts serve
+    ```
+  - Make:
+    ```sh
+        make dev
+    ```
+  - Docker:
+    ```sh
+        make docker-dev
+    ```
+
+<hr>
 
 VanillaTS is cross-platform, fast, lightweight, scalable and is loved by millions.
 
@@ -49,3 +71,4 @@ You might want to try [VanillaTS CLI].
 [npm]: https://www.npmjs.com/get-npm
 [yarn]: https://yarnpkg.com/
 [vanillats cli]: https://www.npmjs.com/package/@vanilla-ts/cli
+[docker]: https://docs.docker.com/engine/install/

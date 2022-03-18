@@ -1,16 +1,2 @@
-class App extends HTMLElement {
-	creationDate: Date;
-	message: string;
-
-	constructor() {
-		super();
-		this.creationDate = new Date();
-		this.message = 'Welcome to VanillaTS teste';
-	}
-
-	connectedCallback() {
-		this.innerHTML = this.message;
-	}
-}
-
-customElements.define('app-root', App);
+import './app.component';
+import './components/example/example.component';

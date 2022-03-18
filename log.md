@@ -1,4 +1,4 @@
-# Day 01
+# Logs
 
 ## Setup TypeScript
 
@@ -56,6 +56,24 @@
 ## Add AppRoot Component
 
 - create the first component to the project: `<app-root></app-root>` on `index.ts` and import it on `index.html`
+
+## Add Docker environment
+
+- create a Docker folder, to run code inner a container.
+  - now you can run this project just installing Docker and running `make docker-dev`
+
+## Setup Webpack
+
+- add `webpack` and `webpack-cli` packages
+- create the `webpack.config.js` file
+- change scripts to extension `*.mjs`
+- separate static files to folder `public` and change it on scripts
+- create a second component to examplify component imports
+
+## Setup HTML imports
+
+- add `typings/html.d.ts` file
+- add an HTML import example on ExampleComponent
 
 [chokidar]: https://www.npmjs.com/package/chokidar
 [browser-sync]: https://browsersync.io/
