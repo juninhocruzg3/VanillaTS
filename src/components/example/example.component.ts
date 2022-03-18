@@ -8,6 +8,7 @@ class ExampleComponent extends HTMLElement {
 
 	connectedCallback() {
 		this.innerHTML = html;
+		this.classList.add('example-component');
 	}
 }
 
