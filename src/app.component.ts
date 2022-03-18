@@ -7,6 +7,7 @@ class App extends HTMLElement {
 		this.creationDate = new Date();
 		this.message = `
 			<nav>Navegação</nav>
+			<h1>Título APP</h1>
 			<app-example></app-example>
 			<footer>Rodapé</footer>
 		`;
