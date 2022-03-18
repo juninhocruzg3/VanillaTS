@@ -48,7 +48,13 @@ watch(`public/*`).on("change", (file) => {
 
 browserSync.init(
 	{
-		server: "dist",
+		server: {
+			baseDir: "dist",
+			middleware: function (_, res, next) {
+				res.setHeader("Access-Control-Allow-Origin", "*");
+				next();
+			},
+		},
 		injectChanges: true,
 		port: process.env.PORT || 8080,
 		ui: {
