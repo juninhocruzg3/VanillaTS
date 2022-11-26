@@ -9,6 +9,7 @@ class App extends HTMLElement {
 			<nav>Navegação</nav>
 			<h1>Título APP</h1>
 			<app-example></app-example>
+			<app-shadow-example></app-shadow-example>
 			<footer>Rodapé</footer>
 		`;
 	}
