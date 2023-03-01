@@ -8,13 +8,14 @@ VanillaTS is a fast, lightweight, cross-platform development framework for build
 
 Get started with VanillaTS, learn the fundamentals and explore advanced topics on our documentation.
 
-- Get started (soon...)
 - Architecture (soon...)
 - Components (soon...)
 
 ### Advanced
 
-- Microfrontend (soon...)
+- Microfrontend
+
+	- See an example [here](https://github.com/juninhocruzg3/microfrontend-example-vanilla-ts)
 
 ## Development Setup
 
